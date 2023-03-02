@@ -20,5 +20,4 @@ from . import controllers
 urlpatterns = [
     path('', views.chat),
     path('ask', controllers.ask),
-    path('test', controllers.test)
 ]
