@@ -46,12 +46,6 @@ export default {
     hasProblem: false,
     input: '',
   }},
-  // computed: {
-  //   buttonText() {
-  //     if (hasProblem) return '重发';
-  //     else return '发送';
-  //   }
-  // },
   components: {Button, Container, Footer, Input, Main, Row, DialogBorder},
   methods: {
     ask() {
